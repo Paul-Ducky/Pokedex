@@ -65,6 +65,20 @@ header>h1{
     margin-top: 50px;
     margin-left: 50px;
 }
+#poke-sprite{
+    width: 150px;
+    height: 150px;
+}
+#poke-name{
+    width: 25px;
+    height: 15px;
+    color: black;
+}
+#poke-id{
+    width: 10px;
+    height: 10px;
+    color: black;
+}
 #weight{
     background: #F1FAEE;
     position: relative;
