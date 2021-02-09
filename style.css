@@ -5,11 +5,11 @@
 body {
     /*display: flex;*/
     width: 100%;
-    background-color: #1d3557;
+    background-image: radial-gradient(circle, #88b9d7, #7badcc, #6fa1c1, #6296b6, #568aab, #53789a, #4f6788, #4a5775, #433f55, #342a36, #1f181c, #000000);
 }
 
 header{
-    background: #1d3557;
+   /* background: #1d3557;*/
     margin-bottom: 20px;
     text-align: center;
 
@@ -28,6 +28,7 @@ p{
     font-weight: bolder;
     text-shadow: 1px 1px #153c45
 }
+
 #superContainer{
     width: 900px;
     margin: auto;
@@ -158,6 +159,12 @@ p{
     margin-left: 415px;
     margin-top: -150px;
 }
+#btn-r:active, #btn-down:active, #btn-up:active, #btn-l:active{
+    width: 32px;
+    height: 32px;
+
+
+}
 #btn-up, #btn-r, #btn-down, #btn-l{
 
     background: #f1faee;
@@ -167,24 +174,25 @@ p{
 }
 #btn-up{
     background: rgb(125,125,125);
-    background: linear-gradient(180deg, rgba(125,125,125,1) 0%, rgba(0,0,0,1) 91%);
+    background: linear-gradient(0deg, rgba(125,125,125,1) 0%, rgba(0,0,0,1) 91%);
     margin-left: 36px;
 
 }
 #btn-r{
     margin-left: 72px;
     background: rgb(125,125,125);
-    background: linear-gradient(260deg, rgba(125,125,125,1) 0%, rgba(0,0,0,1) 91%);
+    background: linear-gradient(90deg, rgba(125,125,125,1) 0%, rgba(0,0,0,1) 91%);
 }
 #btn-down{
     margin-left: 36px;
     background: rgb(125,125,125);
-    background: linear-gradient(0deg, rgba(125,125,125,1) 0%, rgba(0,0,0,1) 91%);
+    background: linear-gradient(180deg, rgba(125,125,125,1) 0%, rgba(0,0,0,1) 91%);
+
 }
 #btn-l{
     margin-top: -70px;
     background: rgb(125,125,125);
-    background: linear-gradient(90deg, rgba(125,125,125,1) 0%, rgba(0,0,0,1) 91%);
+    background: linear-gradient(260deg, rgba(125,125,125,1) 0%, rgba(0,0,0,1) 91%);
 }
 
 #right-container{
