@@ -17,7 +17,8 @@ header{
 
 }
 header>h1{
-    font-family: 'Pokemon';
+   /*font-family: 'Pokemon';*/
+    font-family: 'Lobster', cursive;
     color: #f6D55C;
     font-size: 120px;
     text-shadow: 8px 8px #0e1c2f;
